@@ -1,0 +1,63 @@
+Analise de Classificação usando Modelo  KNN Supervisionado. 
+
+Nome dos DataSet. 
+iris.csv
+iris.png
+
+Bibliotecas usadas para leitura do datasert.
+import pandas as pd   
+
+Biblioteca para trabalhar com  algoritimos de Machine Learning 
+import sklearn.
+
+
+Bibliotecas usadas para Plotar Graficos . 
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+ 
+Ferramenta ultilizada . 
+Notebook Colab.
+
+Target. 
+setosa
+versicolor
+virginica
+
+Modelos  de Graficos que foram usados. 
+scatter_3d para verificar os pontos mais proximos. 
+gráfico de linhas para visualizar pontos de acuracia e melhor valor de K
+
+Criando Modelo 
+importar biblioteca Sklearn
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.model_selection import  train_test_split
+
+Modelo de ( test_size=0.3) = trabalhando com   30% dos dados .
+Modelo de Treinamento trabalhando com apenas 70% dos dados random_state=7)
+
+Foram escolhidos  3 vizinhos para teste . K_neighbors = 3 
+
+Importe de Biblioteca para verificar acuracia . 
+from sklearn.metrics import accuracy_score
+
+
+
+O nosso modelo de Treinamento mostrou que o melhor K (KNN) foi o numero 10 com mais de 95% Como estamos vendo no Grafico do notebook . 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
